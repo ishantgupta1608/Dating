@@ -314,5 +314,6 @@
             "version": "==1.0.0"
         }
     },
-    "develop": {}
+    "develop": {}, 
+    "PIL": {}
 }
