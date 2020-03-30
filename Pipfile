@@ -8,13 +8,7 @@ verify_ssl = true
 [packages]
 flask = "*"
 azure-storage-blob = "*"
-psycopg2 = "*"
-gunicorn = "*"
-flask-sqlalchemy = "*"
-psycopg2-binary = "*"
 uuid = "*"
-requests = "*"
-PIL = "*"
 
 [requires]
 python_version = "3.7"
