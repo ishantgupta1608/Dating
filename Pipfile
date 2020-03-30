@@ -14,6 +14,7 @@ flask-sqlalchemy = "*"
 psycopg2-binary = "*"
 uuid = "*"
 requests = "*"
+PIL = "*"
 
 [requires]
 python_version = "3.7"
