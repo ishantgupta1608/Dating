@@ -1,11 +1,11 @@
-from flask import *
-from azure.storage.blob import *
+from flask import Flask, render_template, request, session, redirect
+from azure.storage.blob import BlobServiceClient
 import io, uuid, pickle
 import requests
 from PIL import Image
 from base64 import b64encode
  
-print('hi')
+
 connect_str = open('string.txt', 'r').read().rstrip()
 blob_service_client = BlobServiceClient.from_connection_string(connect_str)
 accounts_client = blob_service_client.get_container_client('datingaccounts')
