@@ -12,12 +12,8 @@ psycopg2 = "*"
 gunicorn = "*"
 flask-sqlalchemy = "*"
 psycopg2-binary = "*"
-io = "*"
 uuid = "*"
-pickle = "*"
 requests = "*"
-pil = "*"
-base64 = "*"
 
 [requires]
 python_version = "3.7"
