@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, session, redirect
 from azure.storage.blob import BlobServiceClient
 import io, uuid, pickle
 import requests
-from PIL import Image
+#from PIL import Image
 from base64 import b64encode
  
 

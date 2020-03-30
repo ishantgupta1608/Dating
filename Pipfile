@@ -12,7 +12,6 @@ psycopg2-binary = "*"
 flask = "*"
 azure-storage-blob = "*"
 uuid = "*"
-PIL = "*"
 
 [requires]
 python_version = "3.7"
