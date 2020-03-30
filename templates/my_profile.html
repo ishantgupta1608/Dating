@@ -1,0 +1,15 @@
+<a href = "/login"> <h3> Login With Different Account </h3> </a>
+
+<br/>
+
+<form action = "/update_profile" method = "post" enctype = "multipart/form-data">
+        Name : <input type = "text" name = "name" value = "{{ name }}"> <br/> <br/>
+        Age : <input type = "number" name = "age" value = "{{ age }}"> <br/> <br/>
+        City : <input type = "text" name = "city" value = "{{ city }}"> <br/> <br/>
+        <img src = "data:;base64,{{ photo }}" width = 100 height = 100><input type = "file" name = "photo"> <br/> <br/>
+        <input type = "submit" value = "Update Profile">
+</form>
+
+<br/>
+
+<a href = "/show_profiles"> <h2> Show Me Profiles </h2></a>

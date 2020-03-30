@@ -1,0 +1,1 @@
+DefaultEndpointsProtocol=https;AccountName=allmyfiles;AccountKey=6kHeRxzeEIwkywZ5gv4dKC9/aLdiQjZqfS+VbBukijNTZin7kLDjfrbNDd4Y8J05s6rXJ/TiQYvop0J5DzJCpg==;EndpointSuffix=core.windows.net
